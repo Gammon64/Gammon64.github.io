@@ -1,112 +1,179 @@
 import Image from "next/image";
+import token from "./hugo_token.png";
+import { Experiencia } from "@/_components/Experiencia";
+import Skill from "@/_components/Skill";
+import { Formacao } from "@/_components/Formacao";
+import { Projeto } from "@/_components/Projeto";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <header>
+        {/* Resumo */}
+        <div>
+          <div>
+            <h1>Hugo Henrique Bolandin Barbosa</h1>
+            <h3>Desenvolvedor FullStack</h3>
+            <p>
+              Impulsionado por um projeto de tese em eletrotécnica, descobri
+              minha vocação e comecei minha jornada com Java, anos depois
+              transicionei para React.js como minha estrutura preferida.
+              Mantenho projetos pessoais com Next.js. Sou normalmente nomeado
+              como metódico, gosto de compartilhar minhas experiências com
+              outros, como também aprender com estes.
+            </p>
+          </div>
+          {/* Foto */}
+          <Image src={token} alt="Token de perfil" />
         </div>
-      </div>
+        {/* Links */}
+        <div>
+          <a href="mailto:hugo.hbs64@gmail.com">hugo.hbs64@gmail.com</a>
+          <a href="tel:+5518981409164">+55 18 98140-9164</a>
+          <a href="https://maps.app.goo.gl/wjstZdKgUDQE1uM39">
+            Ilha Solteira, Brasil
+          </a>
+          <a href="https://www.linkedin.com/in/hugo-hbb/">LinkedIn</a>
+          <a href="https://github.com/Gammon64">GitHub</a>
+        </div>
+      </header>
+      <div>
+        {/* Experiencia */}
+        <section>
+          <h2>Experiência</h2>
+          <Experiencia.Root>
+            <Experiencia.Titulo
+              titulo="Desenvolvedor Web"
+              subtitulo="Exiti Soluções Digitais"
+            />
+            <Experiencia.Timestamp
+              periodo="03/2022 - Presente"
+              localidade="Ilha Solteira, Brasil"
+            />
+            <Experiencia.Descricao>
+              Desenvolvedora de softwares personalizados, aplicativos para
+              internet e dispositivos móveis para empresas em geral.
+            </Experiencia.Descricao>
+            <Experiencia.Tarefas
+              tarefas={[
+                "Desenvolver e manter aplicações em Java ServerFaces, Spring e Next.js",
+              ]}
+            />
+          </Experiencia.Root>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+          <Experiencia.Root>
+            <Experiencia.Titulo
+              titulo="Tech Lead"
+              subtitulo="Exiti Soluções Digitais"
+            />
+            <Experiencia.Timestamp
+              periodo="01/2024 – 06/2024"
+              localidade="Ilha Solteira, Brasil"
+            />
+            <Experiencia.Descricao>
+              Desenvolvedora de softwares personalizados, aplicativos para
+              internet e dispositivos móveis para empresas em geral.
+            </Experiencia.Descricao>
+            <Experiencia.Tarefas
+              tarefas={[
+                "Responsável pela organização dos Sprints, juntamente com as reuniões necessárias com a equipe de desenvolvimento.",
+                "Analisar a qualidade e organizar os Pull Requests da equipe.",
+                "Desenvolver e manter aplicações em Java ServerFaces, Spring e Next.js",
+              ]}
+            />
+          </Experiencia.Root>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+          <Experiencia.Root>
+            <Experiencia.Titulo
+              titulo="Analista de Sistemas"
+              subtitulo="Ceres Sistemas"
+            />
+            <Experiencia.Timestamp
+              periodo="10/2020 - 09/2022"
+              localidade="Pereira Barreto, Brasil"
+            />
+            <Experiencia.Descricao>
+              Automação de laboratórios químicos e agricultura
+            </Experiencia.Descricao>
+            <Experiencia.Tarefas
+              tarefas={[
+                "Responsável por desenvolver e manter uma aplicação web em Java Server Faces, Java e um serviço web em JAX-RS além de fornecer suporte ao cliente.",
+              ]}
+            />
+          </Experiencia.Root>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+          <Experiencia.Root>
+            <Experiencia.Titulo
+              titulo="Técnico em TI"
+              subtitulo="Ceres Sistemas"
+            />
+            <Experiencia.Timestamp
+              periodo="01/2019 - 10/2020"
+              localidade="Pereira Barreto, Brasil"
+            />
+            <Experiencia.Descricao>
+              Automação de laboratórios químicos e agricultura
+            </Experiencia.Descricao>
+            <Experiencia.Tarefas
+              tarefas={[
+                "Responsável por desenvolver e manter uma aplicação web em Java Server Faces além de fornecer suporte ao cliente.",
+              ]}
+            />
+          </Experiencia.Root>
+        </section>
+        {/* Dados Técnicos */}
+        <aside>
+          {/* Skills */}
+          <div>
+            <h2>Habilidades</h2>
+            <div>
+              {"JIRA,Linux,Java,Spring,Firebase,Next.js,PostgreSQL,Node.js,React,PrismaORM"
+                .split(",")
+                .map((skill) => (
+                  <Skill>{skill}</Skill>
+                ))}
+            </div>
+          </div>
+          {/* Formação */}
+          <div>
+            <h2>Formação Acadêmica</h2>
+            <Formacao.Root>
+              <Formacao.Titulo
+                titulo="Curso Técnico em informática"
+                subtitulo="ETEC"
+              />
+              <Formacao.Timestamp
+                periodo="01/2018 - 12/2018"
+                localidade="Ilha Solteira, SP, Brasil"
+              />
+            </Formacao.Root>
+          </div>
+          {/* Projetos */}
+          <div>
+            <h2>Projetos Pessoais</h2>
+            <Projeto.Root>
+              <Projeto.Titulo>Adashmin</Projeto.Titulo>
+              <Projeto.Descricao>
+                Projeto fullstack de gerência de funcionários usando Next.js e
+                NestJs.
+              </Projeto.Descricao>
+              <Projeto.Link href="https://github.com/Gammon64/Adashmin">
+                GitHub
+              </Projeto.Link>
+            </Projeto.Root>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+            <Projeto.Root>
+              <Projeto.Titulo>Ocorrência API</Projeto.Titulo>
+              <Projeto.Descricao>
+                Projeto demonstração de API Rest usando Spring, PostgreSQL e
+                Min.io em containers Docker
+              </Projeto.Descricao>
+              <Projeto.Link href="https://github.com/Gammon64/ocorrencia-api">
+                GitHub
+              </Projeto.Link>
+            </Projeto.Root>
+          </div>
+        </aside>
       </div>
     </main>
   );
