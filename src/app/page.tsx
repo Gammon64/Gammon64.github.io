@@ -58,7 +58,7 @@ export default function Home() {
       </header>
       <div className="flex p-8 pr-16 gap-8">
         {/* Experiencia */}
-        <section className="grow flex flex-col gap-4">
+        <section className="flex flex-col gap-4">
           <h2>Experiência</h2>
           <Experiencia.Root>
             <Experiencia.Titulo
@@ -141,9 +141,9 @@ export default function Home() {
           </Experiencia.Root>
         </section>
         {/* Dados Técnicos */}
-        <aside className="flex-none flex flex-col gap-4 w-96">
+        <aside className="flex flex-col gap-16">
           {/* Skills */}
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-4">
             <h2>Habilidades</h2>
             <Skill
               skills={"JIRA,Linux,Java,Spring,Firebase,Next.js,PostgreSQL,Node.js,React,PrismaORM".split(
@@ -152,7 +152,7 @@ export default function Home() {
             />
           </div>
           {/* Formação */}
-          <div>
+          <div className="flex flex-col gap-4">
             <h2>Formação Acadêmica</h2>
             <Formacao.Root>
               <Formacao.Titulo
@@ -166,7 +166,7 @@ export default function Home() {
             </Formacao.Root>
           </div>
           {/* Projetos */}
-          <div>
+          <div className="flex flex-col gap-4">
             <h2>Projetos Pessoais</h2>
             <Projeto.Root>
               <Projeto.Titulo>Adashmin</Projeto.Titulo>

@@ -2,11 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 72%;
+}
+
+body {
+  width: 210mm;
+  height: 297mm;
+}
+
 h1 {
-  @apply text-3xl font-bold text-gray-50;
+  @apply text-3xl font-bold uppercase text-gray-50;
 }
 h2 {
-  @apply text-2xl font-bold text-cyan-600 underline decoration-4 decoration-cyan-600;
+  @apply text-2xl font-bold uppercase text-cyan-600 underline decoration-4 decoration-cyan-600;
 }
 h3 {
   @apply text-xl font-bold text-cyan-600;
