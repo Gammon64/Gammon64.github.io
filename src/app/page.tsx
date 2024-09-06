@@ -1,20 +1,28 @@
-import Image from "next/image";
-import token from "./hugo_token.png";
 import { Experiencia } from "@/_components/Experiencia";
-import Skill from "@/_components/Skill";
 import { Formacao } from "@/_components/Formacao";
+import Link from "@/_components/Link";
 import { Projeto } from "@/_components/Projeto";
+import Skill from "@/_components/Skill";
+import Image from "next/image";
+import {
+  FaAt,
+  FaGithub,
+  FaLinkedin,
+  FaLocationPin,
+  FaMobile,
+} from "react-icons/fa6";
+import token from "./hugo_token.png";
 
 export default function Home() {
   return (
     <main>
-      <header>
+      <header className="flex flex-col">
         {/* Resumo */}
-        <div>
+        <div className="flex items-center p-6 px-16 gap-2 bg-cyan-900">
           <div>
             <h1>Hugo Henrique Bolandin Barbosa</h1>
             <h3>Desenvolvedor FullStack</h3>
-            <p>
+            <p className="text-gray-50 tracking-tighter">
               Impulsionado por um projeto de tese em eletrotécnica, descobri
               minha vocação e comecei minha jornada com Java, anos depois
               transicionei para React.js como minha estrutura preferida.
@@ -24,22 +32,33 @@ export default function Home() {
             </p>
           </div>
           {/* Foto */}
-          <Image src={token} alt="Token de perfil" />
+          <Image src={token} alt="Token de perfil" width={160} height={160} />
         </div>
         {/* Links */}
-        <div>
-          <a href="mailto:hugo.hbs64@gmail.com">hugo.hbs64@gmail.com</a>
-          <a href="tel:+5518981409164">+55 18 98140-9164</a>
-          <a href="https://maps.app.goo.gl/wjstZdKgUDQE1uM39">
+        <div className="flex justify-evenly p-2 gap-2 bg-cyan-950">
+          <Link icon={FaAt} href="mailto:hugo.hbs64@gmail.com">
+            hugo.hbs64@gmail.com
+          </Link>
+          <Link icon={FaMobile} href="tel:+5518981409164">
+            +55 18 98140-9164
+          </Link>
+          <Link
+            icon={FaLocationPin}
+            href="https://maps.app.goo.gl/wjstZdKgUDQE1uM39"
+          >
             Ilha Solteira, Brasil
-          </a>
-          <a href="https://www.linkedin.com/in/hugo-hbb/">LinkedIn</a>
-          <a href="https://github.com/Gammon64">GitHub</a>
+          </Link>
+          <Link icon={FaLinkedin} href="https://www.linkedin.com/in/hugo-hbb/">
+            LinkedIn
+          </Link>
+          <Link icon={FaGithub} href="https://github.com/Gammon64">
+            GitHub
+          </Link>
         </div>
       </header>
-      <div>
+      <div className="flex p-8 pr-16 gap-8">
         {/* Experiencia */}
-        <section>
+        <section className="grow flex flex-col gap-4">
           <h2>Experiência</h2>
           <Experiencia.Root>
             <Experiencia.Titulo
@@ -122,17 +141,15 @@ export default function Home() {
           </Experiencia.Root>
         </section>
         {/* Dados Técnicos */}
-        <aside>
+        <aside className="flex-none flex flex-col gap-4 w-96">
           {/* Skills */}
-          <div>
+          <div className="flex flex-col">
             <h2>Habilidades</h2>
-            <div>
-              {"JIRA,Linux,Java,Spring,Firebase,Next.js,PostgreSQL,Node.js,React,PrismaORM"
-                .split(",")
-                .map((skill) => (
-                  <Skill>{skill}</Skill>
-                ))}
-            </div>
+            <Skill
+              skills={"JIRA,Linux,Java,Spring,Firebase,Next.js,PostgreSQL,Node.js,React,PrismaORM".split(
+                ","
+              )}
+            />
           </div>
           {/* Formação */}
           <div>

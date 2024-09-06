@@ -8,12 +8,12 @@ const ProjetoLink = ({
   href: string;
 }) => {
   return (
-    <footer>
-      <span>
-        Link para acesso:
-        <a href={href}>{children}</a>
-      </span>
-    </footer>
+    <span className=" flex gap-1 text-sm">
+      Link para acesso:
+      <a href={href} className="text-cyan-600 underline">
+        {children}
+      </a>
+    </span>
   );
 };
 

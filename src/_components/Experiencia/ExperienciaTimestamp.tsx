@@ -8,7 +8,7 @@ const ExperienciaTimestamp = ({
   localidade: string;
 }) => {
   return (
-    <div>
+    <div className="flex justify-between italic text-xs text-cyan-600">
       <span>{periodo}</span>
       <span>{localidade}</span>
     </div>

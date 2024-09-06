@@ -9,8 +9,8 @@ const ExperienciaTitulo = ({
 }) => {
   return (
     <header>
-      <h2>{titulo}</h2>
-      <h3>{subtitulo}</h3>
+      <h3>{titulo}</h3>
+      <h4>{subtitulo}</h4>
     </header>
   );
 };

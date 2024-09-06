@@ -2,9 +2,9 @@ import React from "react";
 
 const ProjetoDescricao = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
-      <p>{children}</p>
-    </div>
+    <ul>
+      <li className="text-sm">{children}</li>
+    </ul>
   );
 };
 
