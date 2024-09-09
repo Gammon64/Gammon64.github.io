@@ -66,7 +66,7 @@ export default function Home() {
               subtitulo="Exiti Soluções Digitais"
             />
             <Experiencia.Timestamp
-              periodo="03/2022 - Presente"
+              periodo="03/2022 - 09/2024"
               localidade="Ilha Solteira, Brasil"
             />
             <Experiencia.Descricao>
