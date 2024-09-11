@@ -191,7 +191,7 @@ export default function Home() {
             </Projeto.Root>
 
             <Projeto.Root>
-              <Projeto.Titulo>Hugo's Resume</Projeto.Titulo>
+              <Projeto.Titulo>Hugo&apos;s Resume</Projeto.Titulo>
               <Projeto.Descricao>
                 Este currículo, feito com Next.js e TailwindCSS
               </Projeto.Descricao>
