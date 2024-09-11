@@ -189,6 +189,16 @@ export default function Home() {
                 GitHub
               </Projeto.Link>
             </Projeto.Root>
+
+            <Projeto.Root>
+              <Projeto.Titulo>Hugo's Resume</Projeto.Titulo>
+              <Projeto.Descricao>
+                Este currículo, feito com Next.js e TailwindCSS
+              </Projeto.Descricao>
+              <Projeto.Link href="https://github.com/Gammon64/Gammon64.github.io">
+                GitHub
+              </Projeto.Link>
+            </Projeto.Root>
           </div>
         </aside>
       </div>
