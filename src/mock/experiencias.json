@@ -1,0 +1,44 @@
+[
+  {
+    "titulo": "Desenvolvedor Web",
+    "subtitulo": "Exiti Soluções Digitais",
+    "periodo": "03/2022 - 09/2024",
+    "localidade": "Ilha Solteira, Brasil",
+    "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
+    "tarefas": [
+      "Desenvolver e manter aplicações em Java ServerFaces, Spring e Next.js"
+    ]
+  },
+  {
+    "titulo": "Tech Lead",
+    "subtitulo": "Exiti Soluções Digitais",
+    "periodo": "01/2024 – 06/2024",
+    "localidade": "Ilha Solteira, Brasil",
+    "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
+    "tarefas": [
+      "Responsável pela organização dos Sprints, juntamente com as reuniões necessárias com a equipe de desenvolvimento.",
+      "Analisar a qualidade e organizar os Pull Requests da equipe.",
+      "Desenvolver e manter aplicações em Java ServerFaces, Spring e Next.js"
+    ]
+  },
+  {
+    "titulo": "Analista de Sistemas",
+    "subtitulo": "Ceres Sistemas",
+    "periodo": "10/2020 - 09/2022",
+    "localidade": "Pereira Barreto, Brasil",
+    "descricao": "Automação de laboratórios químicos e agricultura",
+    "tarefas": [
+      "Responsável por desenvolver e manter uma aplicação web em Java Server Faces, Java e um serviço web em JAX-RS além de fornecer suporte ao cliente."
+    ]
+  },
+  {
+    "titulo": "Técnico em TI",
+    "subtitulo": "Ceres Sistemas",
+    "periodo": "01/2019 - 10/2020",
+    "localidade": "Pereira Barreto, Brasil",
+    "descricao": "Automação de laboratórios químicos e agricultura",
+    "tarefas": [
+      "Responsável por desenvolver e manter uma aplicação web em Java Server Faces além de fornecer suporte ao cliente."
+    ]
+  }
+]

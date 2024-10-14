@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
 import { Arimo } from "next/font/google";
 import "./globals.css";
+import mock_metadata from "@/mock/metadata.json";
 
 const arimo = Arimo({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Hugo's Resume",
-  description: "Hugo's Resume made with Next.js",
-};
+export const metadata: Metadata = mock_metadata;
 
 export default function RootLayout({
   children,
