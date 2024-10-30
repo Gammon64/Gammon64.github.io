@@ -5,7 +5,7 @@ const FormacaoTimestamp = ({
   localidade,
 }: {
   periodo: string;
-  localidade: string;
+  localidade?: string;
 }) => {
   return (
     <div className="flex flex-col italic text-sm text-cyan-600">

@@ -97,6 +97,11 @@ export default function Home() {
                   periodo={formacao.periodo}
                   localidade={formacao.localidade}
                 />
+                {formacao.certificado && (
+                  <Formacao.Link href={formacao.certificado}>
+                    Ver certificado
+                  </Formacao.Link>
+                )}
               </Formacao.Root>
             ))}
           </div>

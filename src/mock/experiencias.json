@@ -6,7 +6,11 @@
     "localidade": "Ilha Solteira, Brasil",
     "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
     "tarefas": [
-      "Desenvolver e manter aplicações em Java ServerFaces, Spring e Next.js"
+      "Desenvolver e manter aplicação web em Java ServerFaces, micro serviços em Spring, utilizando principalmente Spring Boot, Spring Security e Spring Data JPA, utilizando Spring Cloud Gateway e Eureka para descoberta de serviço, aplicações web em ReactJs e NextJs",
+      "Escrever Dockerfiles e hospedar em plataforma Azure.",
+      "Realizar manutenção em banco de dados PostgreSQL. Criar e manter funções em PL/pgSQL.",
+      "Criar e manter rotinas de integração contínua e entrega contínua com BitBucket Pipeline.",
+      "Aplicar práticas de Clean Code com foco em SOLID e Design Patterns. Com auxílio de ferramentas Lint, como ESLint e SonarLint."
     ]
   },
   {
@@ -16,9 +20,9 @@
     "localidade": "Ilha Solteira, Brasil",
     "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
     "tarefas": [
-      "Responsável pela organização dos Sprints, juntamente com as reuniões necessárias com a equipe de desenvolvimento.",
-      "Analisar a qualidade e organizar os Pull Requests da equipe.",
-      "Desenvolver e manter aplicações em Java ServerFaces, Spring e Next.js"
+      "Responsável pela organização dos Sprints, juntamente com as reuniões de planejamento, diárias e One-o-One.",
+      "Analisar a qualidade, aprovar e mesclar os Pull Requests da equipe.",
+      "Junto às responsabilidades do cargo de Desenvolvedor Web."
     ]
   },
   {
@@ -28,7 +32,9 @@
     "localidade": "Pereira Barreto, Brasil",
     "descricao": "Automação de laboratórios químicos e agricultura",
     "tarefas": [
-      "Responsável por desenvolver e manter uma aplicação web em Java Server Faces, Java e um serviço web em JAX-RS além de fornecer suporte ao cliente."
+      "Desenvolver e manter aplicação web em Java Server Faces e serviço web em JAX-RS hospedados em AWS EC2.",
+      "Realizar manutenção em banco de dados PostgreSQL hospedado em AWS RDS.",
+      "Realizar suporte e manter aplicação desktop em Java Swing."
     ]
   },
   {
@@ -38,7 +44,9 @@
     "localidade": "Pereira Barreto, Brasil",
     "descricao": "Automação de laboratórios químicos e agricultura",
     "tarefas": [
-      "Responsável por desenvolver e manter uma aplicação web em Java Server Faces além de fornecer suporte ao cliente."
+      "Desenvolver e manter aplicação web em Java Server Faces, hospedada em AWS EC2.",
+      "Realizar manutenção em banco de dados PostgreSQL hospedado em AWS RDS.",
+      "Realizar suporte e manter aplicação desktop em Java Swing."
     ]
   }
 ]
