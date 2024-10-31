@@ -6,7 +6,7 @@
     "localidade": "Ilha Solteira, Brasil",
     "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
     "tarefas": [
-      "Desenvolver e manter aplicação web em Java ServerFaces, micro serviços em Spring, utilizando principalmente Spring Boot, Spring Security e Spring Data JPA, utilizando Spring Cloud Gateway e Eureka para descoberta de serviço, aplicações web em ReactJs e NextJs",
+      "Desenvolver e manter aplicação web em Java ServerFaces, micro serviços em Node.Js com express e em Spring, utilizando principalmente Spring Boot, Spring Security e Spring Data JPA, utilizando Spring Cloud Gateway e Eureka para descoberta de serviço, aplicações web em ReactJs e NextJs",
       "Escrever Dockerfiles e hospedar em plataforma Azure.",
       "Realizar manutenção em banco de dados PostgreSQL. Criar e manter funções em PL/pgSQL.",
       "Criar e manter rotinas de integração contínua e entrega contínua com BitBucket Pipeline.",
