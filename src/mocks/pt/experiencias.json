@@ -1,0 +1,52 @@
+[
+  {
+    "titulo": "Desenvolvedor Web",
+    "subtitulo": "Exiti Soluções Digitais",
+    "periodo": "08/2022 - 09/2024",
+    "localidade": "Ilha Solteira, Brasil",
+    "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
+    "tarefas": [
+      "Desenvolver e manter aplicação web em Java ServerFaces, micro serviços em Node.Js com express e em Spring, utilizando principalmente Spring Boot, Spring Security e Spring Data JPA, utilizando Spring Cloud Gateway e Eureka para descoberta de serviço, aplicações web em ReactJs e NextJs",
+      "Escrever Dockerfiles e hospedar em plataforma Azure.",
+      "Realizar manutenção em banco de dados PostgreSQL. Criar e manter funções em PL/pgSQL.",
+      "Criar e manter rotinas de integração contínua e entrega contínua com BitBucket Pipeline.",
+      "Aplicar práticas de Clean Code com foco em SOLID e Design Patterns. Com auxílio de ferramentas Lint, como ESLint e SonarLint."
+    ]
+  },
+  {
+    "titulo": "Tech Lead",
+    "subtitulo": "Exiti Soluções Digitais",
+    "periodo": "01/2024 – 06/2024",
+    "localidade": "Ilha Solteira, Brasil",
+    "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
+    "tarefas": [
+      "Responsável pela organização dos Sprints, juntamente com as reuniões de planejamento, diárias e One-o-One.",
+      "Analisar a qualidade, aprovar e mesclar os Pull Requests da equipe.",
+      "Junto às responsabilidades do cargo de Desenvolvedor Web."
+    ]
+  },
+  {
+    "titulo": "Analista de Sistemas",
+    "subtitulo": "Ceres Sistemas",
+    "periodo": "10/2020 - 03/2022",
+    "localidade": "Pereira Barreto, Brasil",
+    "descricao": "Automação de laboratórios químicos e agricultura",
+    "tarefas": [
+      "Desenvolver e manter aplicação web em Java Server Faces e serviço web em JAX-RS hospedados em AWS EC2.",
+      "Realizar manutenção em banco de dados PostgreSQL hospedado em AWS RDS.",
+      "Realizar suporte e manter aplicação desktop em Java Swing."
+    ]
+  },
+  {
+    "titulo": "Técnico em TI",
+    "subtitulo": "Ceres Sistemas",
+    "periodo": "01/2019 - 10/2020",
+    "localidade": "Pereira Barreto, Brasil",
+    "descricao": "Automação de laboratórios químicos e agricultura",
+    "tarefas": [
+      "Desenvolver e manter aplicação web em Java Server Faces, hospedada em AWS EC2.",
+      "Realizar manutenção em banco de dados PostgreSQL hospedado em AWS RDS.",
+      "Realizar suporte e manter aplicação desktop em Java Swing."
+    ]
+  }
+]

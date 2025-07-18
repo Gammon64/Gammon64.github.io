@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "Adashmin",
+    "descricao": "Projeto fullstack de gerência de funcionários usando Next.js e NestJs, com banco de dados MongoDB em containers Docker.",
+    "link": "https://github.com/Gammon64/Adashmin"
+  },
+  {
+    "titulo": "Ocorrência API",
+    "descricao": "Projeto demonstração de API Rest usando Spring, PostgreSQL e Min.io em containers Docker.",
+    "link": "https://github.com/Gammon64/ocorrencia-api"
+  },
+  {
+    "titulo": "Hugo's Resume",
+    "descricao": "Este currículo, feito com Next.js e TailwindCSS. Rotina de integração contínua com GitHub Actions.",
+    "link": "https://github.com/Gammon64/Gammon64.github.io"
+  }
+]
