@@ -1,52 +1,52 @@
 [
   {
-    "titulo": "Desenvolvedor Web",
-    "subtitulo": "Exiti Soluções Digitais",
+    "titulo": "Web Developer",
+    "subtitulo": "Exiti Digital Solutions",
     "periodo": "08/2022 - 09/2024",
-    "localidade": "Ilha Solteira, Brasil",
-    "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
+    "localidade": "Ilha Solteira, Brazil",
+    "descricao": "Developer of custom software, web and mobile applications for companies in general.",
     "tarefas": [
-      "Desenvolver e manter aplicação web em Java ServerFaces, micro serviços em Node.Js com express e em Spring, utilizando principalmente Spring Boot, Spring Security e Spring Data JPA, utilizando Spring Cloud Gateway e Eureka para descoberta de serviço, aplicações web em ReactJs e NextJs",
-      "Escrever Dockerfiles e hospedar em plataforma Azure.",
-      "Realizar manutenção em banco de dados PostgreSQL. Criar e manter funções em PL/pgSQL.",
-      "Criar e manter rotinas de integração contínua e entrega contínua com BitBucket Pipeline.",
-      "Aplicar práticas de Clean Code com foco em SOLID e Design Patterns. Com auxílio de ferramentas Lint, como ESLint e SonarLint."
+      "Develop and maintain web applications in Java ServerFaces, microservices in Node.js with Express and in Spring, mainly using Spring Boot, Spring Security, and Spring Data JPA, using Spring Cloud Gateway and Eureka for service discovery, web applications in ReactJs and NextJs.",
+      "Write Dockerfiles and host on Azure platform.",
+      "Maintain PostgreSQL databases. Create and maintain functions in PL/pgSQL.",
+      "Create and maintain continuous integration and continuous delivery routines with BitBucket Pipeline.",
+      "Apply Clean Code practices focusing on SOLID and Design Patterns. Using lint tools such as ESLint and SonarLint."
     ]
   },
   {
     "titulo": "Tech Lead",
-    "subtitulo": "Exiti Soluções Digitais",
+    "subtitulo": "Exiti Digital Solutions",
     "periodo": "01/2024 – 06/2024",
-    "localidade": "Ilha Solteira, Brasil",
-    "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
+    "localidade": "Ilha Solteira, Brazil",
+    "descricao": "Developer of custom software, web and mobile applications for companies in general.",
     "tarefas": [
-      "Responsável pela organização dos Sprints, juntamente com as reuniões de planejamento, diárias e One-o-One.",
-      "Analisar a qualidade, aprovar e mesclar os Pull Requests da equipe.",
-      "Junto às responsabilidades do cargo de Desenvolvedor Web."
+      "Responsible for organizing Sprints, as well as planning meetings, daily meetings, and One-on-One meetings.",
+      "Analyze quality, approve, and merge team Pull Requests.",
+      "Along with the responsibilities of the Web Developer position."
     ]
   },
   {
-    "titulo": "Analista de Sistemas",
+    "titulo": "Systems Analyst",
     "subtitulo": "Ceres Sistemas",
     "periodo": "10/2020 - 03/2022",
-    "localidade": "Pereira Barreto, Brasil",
-    "descricao": "Automação de laboratórios químicos e agricultura",
+    "localidade": "Pereira Barreto, Brazil",
+    "descricao": "Automation of chemical laboratories and agriculture.",
     "tarefas": [
-      "Desenvolver e manter aplicação web em Java Server Faces e serviço web em JAX-RS hospedados em AWS EC2.",
-      "Realizar manutenção em banco de dados PostgreSQL hospedado em AWS RDS.",
-      "Realizar suporte e manter aplicação desktop em Java Swing."
+      "Develop and maintain web applications in Java Server Faces and web services in JAX-RS hosted on AWS EC2.",
+      "Maintain PostgreSQL databases hosted on AWS RDS.",
+      "Provide support and maintain desktop applications in Java Swing."
     ]
   },
   {
-    "titulo": "Técnico em TI",
+    "titulo": "IT Technician",
     "subtitulo": "Ceres Sistemas",
     "periodo": "01/2019 - 10/2020",
-    "localidade": "Pereira Barreto, Brasil",
-    "descricao": "Automação de laboratórios químicos e agricultura",
+    "localidade": "Pereira Barreto, Brazil",
+    "descricao": "Automation of chemical laboratories and agriculture.",
     "tarefas": [
-      "Desenvolver e manter aplicação web em Java Server Faces, hospedada em AWS EC2.",
-      "Realizar manutenção em banco de dados PostgreSQL hospedado em AWS RDS.",
-      "Realizar suporte e manter aplicação desktop em Java Swing."
+      "Develop and maintain web applications in Java Server Faces, hosted on AWS EC2.",
+      "Maintain PostgreSQL databases hosted on AWS RDS.",
+      "Provide support and maintain desktop applications in Java Swing."
     ]
   }
 ]

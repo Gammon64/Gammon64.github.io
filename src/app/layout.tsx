@@ -16,7 +16,7 @@ export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "pt" }];
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params,
 }: Readonly<{
@@ -24,9 +24,7 @@ export default function RootLayout({
   params: Promise<{ lang: Locale }>;
 }>) {
   return (
-    <html lang="en">
-      {" "}
-      {/* (await params).lang */}
+    <html lang={(await params).lang}>
       <body className={arimo.className}>{children}</body>
     </html>
   );

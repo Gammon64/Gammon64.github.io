@@ -81,7 +81,7 @@ export default async function Home({
               <Experiencia.Descricao>
                 {experiencia.descricao}
               </Experiencia.Descricao>
-              <Experiencia.Tarefas tarefas={experiencia.tarefas} />
+              <Experiencia.Tarefas tarefas={experiencia.tarefas} dict={dict} />
             </Experiencia.Root>
           ))}
         </section>
@@ -106,8 +106,8 @@ export default async function Home({
                   localidade={formacao.localidade}
                 />
                 {formacao.certificado && (
-                  <Formacao.Link href={formacao.certificado}>
-                    Ver certificado
+                  <Formacao.Link href={formacao.certificado} dict={dict}>
+                    Alura
                   </Formacao.Link>
                 )}
               </Formacao.Root>
@@ -120,7 +120,9 @@ export default async function Home({
               <Projeto.Root key={projeto.titulo}>
                 <Projeto.Titulo>{projeto.titulo}</Projeto.Titulo>
                 <Projeto.Descricao>{projeto.descricao}</Projeto.Descricao>
-                <Projeto.Link href={projeto.link}>Acesse</Projeto.Link>
+                <Projeto.Link href={projeto.link} dict={dict}>
+                  GitHub
+                </Projeto.Link>
               </Projeto.Root>
             ))}
           </div>

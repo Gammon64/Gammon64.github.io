@@ -1,6 +1,6 @@
 import "server-only";
 
-type Dictionary = {
+export type Dictionary = {
   ui: any;
   perfil: {
     nome: string;
@@ -55,7 +55,9 @@ export const getDictionary = async (locale: Locale): Promise<Dictionary> => {
         (module) => module.default
       ),
 
-      import(`@/mocks/${locale}/habilidades.json`).then((module) => module.default),
+      import(`@/mocks/${locale}/habilidades.json`).then(
+        (module) => module.default
+      ),
 
       import(`@/mocks/${locale}/formacoes.json`).then(
         (module) => module.default
