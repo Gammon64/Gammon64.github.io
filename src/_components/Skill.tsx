@@ -1,4 +1,4 @@
-const Skill = ({ skills }: { skills: String[] }) => {
+const Skill = ({ skills }: { skills: string[] }) => {
   return (
     <div className="flex flex-wrap gap-2 w-80">
       {skills.map((skill, index) => (
