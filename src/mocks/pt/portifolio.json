@@ -1,13 +1,13 @@
 [
   {
+    "titulo": "AsheOs",
+    "descricao": "Projeto demonstração de gerenciamento de autenticação, cadastro em banco de dados e armazenamento de arquivo.",
+    "link": "https://github.com/Gammon64/AsheOs"
+  },
+  {
     "titulo": "Adashmin",
     "descricao": "Projeto fullstack de gerência de funcionários usando Next.js e NestJs, com banco de dados MongoDB em containers Docker.",
     "link": "https://github.com/Gammon64/Adashmin"
-  },
-  {
-    "titulo": "Ocorrência API",
-    "descricao": "Projeto demonstração de API Rest usando Spring, PostgreSQL e Min.io em containers Docker.",
-    "link": "https://github.com/Gammon64/ocorrencia-api"
   },
   {
     "titulo": "Currículo Vitae",
