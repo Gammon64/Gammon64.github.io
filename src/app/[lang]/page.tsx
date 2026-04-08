@@ -64,7 +64,7 @@ export default async function Home({
           </Link>
         </div>
       </header>
-      <div className="flex p-8 pr-16 gap-8">
+      <div className="flex px-8 py-2 gap-8">
         {/* Experiencia */}
         <section className="flex flex-col gap-4">
           <h2>{dict.ui.experiencia}</h2>
@@ -86,7 +86,7 @@ export default async function Home({
           ))}
         </section>
         {/* Dados Técnicos */}
-        <aside className="flex flex-col gap-16">
+        <aside className="flex flex-col gap-4">
           {/* Skills */}
           <div className="flex flex-col gap-4">
             <h2>{dict.ui.habilidades}</h2>
