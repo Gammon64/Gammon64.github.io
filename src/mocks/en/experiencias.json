@@ -10,8 +10,7 @@
       "Write Dockerfiles and host on Azure platform.",
       "Maintain PostgreSQL databases. Create and maintain functions in PL/pgSQL.",
       "Create and maintain continuous integration and continuous delivery routines with BitBucket Pipeline.",
-      "Apply Clean Code practices focusing on SOLID and Design Patterns. Using lint tools such as ESLint and SonarLint.",
-      "Adding and updating chores in Jira, as well as organizing and planning Sprints, participating in daily meetings"
+      "Apply Clean Code practices focusing on SOLID and Design Patterns. Using lint tools such as ESLint and SonarLint."
     ]
   },
   {
@@ -21,7 +20,7 @@
     "localidade": "Ilha Solteira, Brazil",
     "descricao": "Developer of custom software, web and mobile applications for companies in general.",
     "tarefas": [
-      "Responsible for creating cards and organizing Sprints, as well as planning meetings, daily meetings, and One-on-One meetings.",
+      "Responsible for creating cards and organizing Sprints on Jira, as well as planning meetings, daily meetings, and One-on-One meetings.",
       "Analyze quality, approve, and merge team Pull Requests.",
       "Along with the responsibilities of the Web Developer position."
     ]

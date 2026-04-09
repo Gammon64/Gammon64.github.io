@@ -64,7 +64,7 @@ export default async function Home({
           </Link>
         </div>
       </header>
-      <div className="flex px-8 py-2 gap-8">
+      <div className="flex px-8 py-2 gap-4">
         {/* Experiencia */}
         <section className="flex flex-col gap-4">
           <h2>{dict.ui.experiencia}</h2>
