@@ -27,7 +27,11 @@ export type Dictionary = {
     descricao: string;
     tarefas: string[];
   }[];
-  habilidades: string[];
+  habilidades: {
+    categoria: string;
+    nome: string;
+    habilidades: string[];
+  }[];
   formacoes: {
     titulo: string;
     subtitulo: string;

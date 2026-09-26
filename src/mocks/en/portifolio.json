@@ -1,17 +1,17 @@
 [
-   {
+  {
+    "titulo": "VexOrderPlat",
+    "descricao": "Fullstack employee management application using Next.js and NestJs, with MongoDB database in Docker containers.",
+    "link": "https://github.com/Gammon64/VexOrderPlat"
+  },
+  {
     "titulo": "AsheOs",
-    "descricao": "Demonstration project for managing authentication, database registration, and file storage.",
+    "descricao": "Production-ready full-stack system project featuring React 19 (Next.js) on the frontend, Java 17 (Spring Boot) on the backend, a PostgreSQL database, and S3 storage (MinIO).",
     "link": "https://github.com/Gammon64/AsheOs"
   },
   {
-    "titulo": "Adashmin",
-    "descricao": "Fullstack employee management application using Next.js and NestJs, with MongoDB database in Docker containers.",
-    "link": "https://github.com/Gammon64/Adashmin"
-  },
-  {
-    "titulo": "Curriculum Vitae",
-    "descricao": "This résumé, made with Next.js and TailwindCSS. Continuous integration routine with GitHub Actions.",
-    "link": "https://github.com/Gammon64/Gammon64.github.io"
+    "titulo": "PsyLu",
+    "descricao": "A simple and intuitive web-based system for psychologists to manage patients, appointments, and patient histories. Designed specifically for professionals with limited technical familiarity.",
+    "link": "https://github.com/Gammon64/psylu-web"
   }
 ]

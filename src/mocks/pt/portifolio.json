@@ -1,17 +1,18 @@
 [
   {
+    "titulo": "VexOrderPlat",
+    "descricao": "Design de microsserviços prontos para produção com Kafka e conteinerização multitecnologia.",
+    "link": "https://github.com/Gammon64/VexOrderPlat"
+  },
+  {
     "titulo": "AsheOs",
-    "descricao": "Projeto demonstração de gerenciamento de autenticação, cadastro em banco de dados e armazenamento de arquivo.",
+    "descricao": "Projeto pronto para produção de sistema Fullstack com React 19 (Next.js) no Frontend e Java 17 (SpringBoot) no Backend, banco de dados PostgreSQL e sistema de Storage S3 (Min.io).",
     "link": "https://github.com/Gammon64/AsheOs"
   },
+
   {
-    "titulo": "Adashmin",
-    "descricao": "Projeto fullstack de gerência de funcionários usando Next.js e NestJs, com banco de dados MongoDB em containers Docker.",
-    "link": "https://github.com/Gammon64/Adashmin"
-  },
-  {
-    "titulo": "Currículo Vitae",
-    "descricao": "Este currículo, feito com Next.js e TailwindCSS. Rotina de integração contínua com GitHub Actions.",
-    "link": "https://github.com/Gammon64/Gammon64.github.io"
+    "titulo": "PsyLu",
+    "descricao": "Sistema web simples e intuitivo para psicólogos gerenciarem pacientes, consultas e anamneses. Projetado especialmente para profissionais com baixa familiaridade tecnológica.",
+    "link": "https://github.com/Gammon64/psylu-web"
   }
 ]

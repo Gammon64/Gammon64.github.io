@@ -6,11 +6,12 @@
     "localidade": "Ilha Solteira, Brasil",
     "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
     "tarefas": [
-      "Desenvolver e manter aplicação web em Java ServerFaces, micro serviços em Node.Js com express e em Spring, utilizando principalmente Spring Boot, Spring Security e Spring Data JPA, utilizando Spring Cloud Gateway e Eureka para descoberta de serviço, aplicações web em ReactJs e NextJs",
-      "Escrever Dockerfiles e hospedar em plataforma Azure.",
-      "Realizar manutenção em banco de dados PostgreSQL. Criar e manter funções em PL/pgSQL.",
-      "Criar e manter rotinas de integração contínua e entrega contínua com BitBucket Pipeline.",
-      "Aplicar práticas de Clean Code com foco em SOLID e Design Patterns. Com auxílio de ferramentas Lint, como ESLint e SonarLint."
+      "Desenvolvi e mantive o Atalayas, sistema web de monitoramento de barragens em Java ServerFaces, microsserviços em Express e Spring Boot (com Spring Security e Spring Data JPA) para geração de relatórios (PDF, DOCX e XLSX), calculadora de parâmetros de leitura, envio de Email e Whatsapp, utilizado por 16 usinas e barragens. configurei Spring Cloud Gateway e Eureka para descoberta de serviço, projetei e desenvolvi a aplicação web Chuva Vazão de cenário hidrológico em ReactJs e NextJs e backend em Spring para integração com APIs de telemetria, projetado para atender inicialmente 2 empresas.",
+      "Escrevi Dockerfiles e hospedei aplicações em plataforma Azure Kubernetes usando terminais linux.",
+      "Realizei manutenção em banco de dados PostgreSQL. Criei e mantive funções em PL/pgSQL.",
+      "Criei e mantive rotinas de integração contínua e entrega contínua com BitBucket Pipeline.",
+      "Apliquei práticas de Clean Code com foco em SOLID e Design Patterns. Com auxílio de ferramentas Lint, como ESLint e SonarLint.",
+      "Implementei o padrão Gitflow, estruturando o ciclo de vida do código com branches de ambiente (dev, stage, main), padronização de Pull Requests e políticas de Code Review."
     ]
   },
   {
@@ -20,9 +21,9 @@
     "localidade": "Ilha Solteira, Brasil",
     "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
     "tarefas": [
-      "Responsável pela organização dos Sprints no Jira, juntamente com as reuniões de planejamento, diárias e One-o-One.",
-      "Analisar a qualidade, aprovar e mesclar os Pull Requests da equipe.",
-      "Junto às responsabilidades do cargo de Desenvolvedor Web."
+      "Organizei Sprints no Jira, juntamente com as reuniões de planejamento, alinhamentos diários e One-o-One para a equipe de 6 programadores.",
+      "Fui responsável por  aprovei e mesclar os Pull Requests da equipe.",
+      "Mantive as responsabilidades do cargo de Desenvolvedor Web."
     ]
   },
   {
@@ -32,9 +33,10 @@
     "localidade": "Pereira Barreto, Brasil",
     "descricao": "Automação de laboratórios químicos e agricultura",
     "tarefas": [
-      "Desenvolver e manter aplicação web em Java Server Faces e serviço web em JAX-RS hospedados em AWS EC2.",
-      "Realizar manutenção em banco de dados PostgreSQL hospedado em AWS RDS.",
-      "Realizar suporte e manter aplicação desktop em Java Swing."
+      "Desenvolvi e mantive aplicação web de automação de laboratórios de análises químicas e agronômicas Ceres One em Java Server Faces e serviço web Ceres Boleto em JAX-RS hospedados em AWS EC2 utilizadas por 10 laboratórios.",
+      "Implementei a integração dos sistemas com API de notas fiscais PlugNotas",
+      "Realizei manutenção em banco de dados PostgreSQL hospedado em AWS RDS.",
+      "Realizei suporte e mantive aplicação legado Ceres (feito em Java 8 e Swing) utilizada por aproximadamente 40 laboratórios."
     ]
   },
   {
@@ -44,9 +46,9 @@
     "localidade": "Pereira Barreto, Brasil",
     "descricao": "Automação de laboratórios químicos e agricultura",
     "tarefas": [
-      "Desenvolver e manter aplicação web em Java Server Faces, hospedada em AWS EC2.",
-      "Realizar manutenção em banco de dados PostgreSQL hospedado em AWS RDS.",
-      "Realizar suporte e manter aplicação desktop em Java Swing."
+      "Participei da concepção da aplicação web de automação de laboratórios de análises químicas e agronômicas Ceres One em Java Server Faces hospedada em AWS EC2 utilizadas por 10 laboratórios.",
+      "Realizei manutenção em banco de dados PostgreSQL hospedado em AWS RDS.",
+      "Realizei suporte e mantive aplicação Ceres (feito em Java 8 e Swing) utilizada por aproximadamente 40 laboratórios."
     ]
   }
 ]

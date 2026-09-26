@@ -6,11 +6,12 @@
     "localidade": "Ilha Solteira, Brazil",
     "descricao": "Developer of custom software, web and mobile applications for companies in general.",
     "tarefas": [
-      "Develop and maintain web applications in Java ServerFaces, microservices in Node.js with Express and in Spring, mainly using Spring Boot, Spring Security, and Spring Data JPA, using Spring Cloud Gateway and Eureka for service discovery, web applications in ReactJs and NextJs.",
-      "Write Dockerfiles and host on Azure platform.",
-      "Maintain PostgreSQL databases. Create and maintain functions in PL/pgSQL.",
-      "Create and maintain continuous integration and continuous delivery routines with BitBucket Pipeline.",
-      "Apply Clean Code practices focusing on SOLID and Design Patterns. Using lint tools such as ESLint and SonarLint."
+      "Developed and maintained the 'Atalayas' dam monitoring web system using JavaServer Faces; built 'Atalayas' microservices using Express and Spring Boot (with Spring Security and Spring Data JPA) for report generation (PDF, DOCX, XLSX), reading parameter calculations, and email/WhatsApp notifications—a system used by 16 power plants and dams. Configured Spring Cloud Gateway and Eureka for service discovery; designed and developed the 'Chuva Vazão' (Rainfall-Flow) hydrological scenario web application using React.js and Next.js, with a Spring backend for telemetry API integration, initially designed to serve two companies.",
+      "Wrote Dockerfiles and hosted applications on the Azure Kubernetes platform using Linux terminals.",
+      "Performed PostgreSQL database maintenance; created and maintained PL/pgSQL functions.",
+      "Created and maintained continuous integration and continuous delivery (CI/CD) pipelines using Bitbucket Pipelines.",
+      "Applied Clean Code practices, focusing on SOLID principles and design patterns, utilizing linting tools such as ESLint and SonarLint.",
+      "Implemented the Gitflow workflow, structuring the code lifecycle with environment-specific branches (dev, stage, main) and standardizing Pull Requests and code review policies."
     ]
   },
   {
@@ -20,9 +21,9 @@
     "localidade": "Ilha Solteira, Brazil",
     "descricao": "Developer of custom software, web and mobile applications for companies in general.",
     "tarefas": [
-      "Responsible for creating cards and organizing Sprints on Jira, as well as planning meetings, daily meetings, and One-on-One meetings.",
-      "Analyze quality, approve, and merge team Pull Requests.",
-      "Along with the responsibilities of the Web Developer position."
+      "I organized Jira sprints, along with planning meetings, daily stand-ups, and one-on-ones for the team of six programmers.",
+      "I was responsible for reviewing and merging the team's pull requests.",
+      "I maintained the responsibilities of the Web Developer role."
     ]
   },
   {
@@ -32,9 +33,10 @@
     "localidade": "Pereira Barreto, Brazil",
     "descricao": "Automation of chemical laboratories and agriculture.",
     "tarefas": [
-      "Develop and maintain web applications in Java Server Faces and web services in JAX-RS hosted on AWS EC2.",
-      "Maintain PostgreSQL databases hosted on AWS RDS.",
-      "Provide support and maintain desktop applications in Java Swing."
+      "Developed and maintained the 'Ceres One' web application for chemical and agronomic analysis laboratory automation (built with JavaServer Faces) and the 'Ceres Boleto' web service (built with JAX-RS), both hosted on AWS EC2 and used by 10 laboratories.",
+      "Implemented system integration with the PlugNotas invoice API.",
+      "Performed maintenance on a PostgreSQL database hosted on AWS RDS.",
+      "Provided support for and maintained the legacy 'Ceres' application (built with Java 8 Swing), used by approximately 40 laboratories."
     ]
   },
   {
@@ -44,9 +46,9 @@
     "localidade": "Pereira Barreto, Brazil",
     "descricao": "Automation of chemical laboratories and agriculture.",
     "tarefas": [
-      "Develop and maintain web applications in Java Server Faces, hosted on AWS EC2.",
-      "Maintain PostgreSQL databases hosted on AWS RDS.",
-      "Provide support and maintain desktop applications in Java Swing."
+      "Participated in the design of 'Ceres One', a JavaServer Faces web application for automating chemical and agronomic analysis laboratories, hosted on AWS EC2 and used by 10 laboratories.",
+      "Performed maintenance on a PostgreSQL database hosted on AWS RDS.",
+      "Provided support for and maintained the legacy 'Ceres' application (built with Java 8 Swing), used by approximately 40 laboratories."
     ]
   }
 ]

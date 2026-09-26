@@ -1,30 +1,48 @@
 [
-  "Java",
-  "Spring",
-  "Kafka",
-  "Maven",
-  "Gradle",
-  "React",
-  "Next.js",
-  "Node.js",
-  "PrismaORM",
-  "PostgreSQL",
-  "NoSQL",
-  "MongoDB",
-  "Firebase",
-  "Agile",
-  "Scrum",
-  "Kanban",
-  "GIT",
-  "CI/CD",
-  "Cloud",
-  "AWS",
-  "Azure",
-  "Docker",
-  "Linux",
-  "Organizing",
-  "Methodology",
-  "Planning",
-  "Team work",
-  "Comunication"
+  {
+    "categoria": "backend",
+    "nome": "Back-end",
+    "habilidades": ["Java", "Spring", "Kafka", "Node.js"]
+  },
+  {
+    "categoria": "frontend",
+    "nome": "Front-end",
+    "habilidades": ["React", "Next.js"]
+  },
+  {
+    "categoria": "data",
+    "nome": "Data",
+    "habilidades": ["PrismaORM", "PostgreSQL", "NoSQL", "MongoDB", "Firebase"]
+  },
+  {
+    "categoria": "tools",
+    "nome": "Tools and infrastructure",
+    "habilidades": [
+      "Maven",
+      "Gradle",
+      "GIT",
+      "CI/CD",
+      "Cloud",
+      "AWS",
+      "Azure",
+      "Docker",
+      "Linux"
+    ]
+  },
+  {
+    "categoria": "methodologies",
+    "nome": "Methodologies",
+    "habilidades": ["Agile", "Scrum", "Kanban", "Methodology"]
+  },
+  {
+    "categoria": "soft-skills",
+    "nome": "Soft skills",
+    "habilidades": [
+      "Organizing",
+      "Planning",
+      "Teamwork",
+      "Communication",
+      "Leadership"
+    ]
+  }
 ]
