@@ -15,10 +15,10 @@ const categoryColors: Record<string, string> = {
 
 const Skill = ({ skills }: { skills: SkillGroup[] }) => {
   return (
-    <div className="flex flex-col gap-4 w-80">
+    <div className="flex w-full flex-col gap-4">
       {skills.map(({ categoria, nome, habilidades }) => (
         <section key={categoria} className="flex flex-col gap-2">
-          <h3 className="font-semibold">{nome}</h3>
+          <h4 className="font-semibold">{nome}</h4>
           <div className="flex flex-wrap gap-2">
             {habilidades.map((skill) => (
               <span

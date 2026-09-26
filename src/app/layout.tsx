@@ -8,8 +8,8 @@ const arimo = Arimo({
 });
 
 export const metadata: Metadata = {
-  title: "Hugo's Resume",
-  description: "Hugo's Resume made with Next.js",
+  title: "Hugo Henrique | Desenvolvedor Full Stack",
+  description: "Portfólio profissional de Hugo Henrique, desenvolvedor Full Stack.",
 };
 
 export async function generateStaticParams() {

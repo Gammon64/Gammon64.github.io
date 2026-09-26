@@ -12,12 +12,22 @@
   {
     "categoria": "data",
     "nome": "Dados",
-    "habilidades": ["PrismaORM", "PostgreSQL", "NoSQL", "MongoDB", "Firebase"]
+    "habilidades": ["PrismaORM", "PostgreSQL", "NoSQL", "MongoDB"]
   },
   {
     "categoria": "tools",
     "nome": "Ferramentas e infraestrutura",
-    "habilidades": ["Maven", "Gradle", "GIT", "CI/CD", "Cloud", "AWS", "Azure", "Docker", "Linux"]
+    "habilidades": [
+      "Maven",
+      "Gradle",
+      "GIT",
+      "CI/CD",
+      "Cloud",
+      "AWS",
+      "Azure",
+      "Docker",
+      "Linux"
+    ]
   },
   {
     "categoria": "methodologies",
@@ -27,6 +37,12 @@
   {
     "categoria": "soft-skills",
     "nome": "Competências interpessoais",
-    "habilidades": ["Organização", "Planejamento", "Trabalho em equipe", "Comunicação", "Liderança"]
+    "habilidades": [
+      "Organização",
+      "Planejamento",
+      "Trabalho em equipe",
+      "Comunicação",
+      "Liderança"
+    ]
   }
 ]

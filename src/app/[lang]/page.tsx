@@ -5,6 +5,7 @@ import { Projeto } from "@/_components/Projeto";
 import Skill from "@/_components/Skill";
 import Image from "next/image";
 import {
+  FaArrowUpRightFromSquare,
   FaAt,
   FaGithub,
   FaLinkedin,
@@ -28,106 +29,163 @@ export default async function Home({
   const dict = await getDictionary(lang);
 
   return (
-    <main>
-      <header className="flex flex-col">
-        {/* Resumo */}
-        <div className="flex items-center p-6 px-16 gap-2 bg-cyan-900">
-          <div>
-            <h1>{dict.perfil.nome}</h1>
-            <h3>{dict.perfil.profissao}</h3>
-            <p className="text-gray-50 tracking-tighter">
-              {dict.perfil.resumo}
-            </p>
+    <>
+      <nav className="site-nav" aria-label="Navegação principal">
+        <div className="page-shell site-nav__inner">
+          <a className="site-nav__brand" href={`/${lang}`} aria-label="Início">
+            HB<span>.</span>
+          </a>
+          <div className="site-nav__links">
+            <a href="#projetos">{dict.ui.portifolio}</a>
+            <a href="#experiencia">{dict.ui.experiencia}</a>
+            <a href="#habilidades">{dict.ui.habilidades}</a>
+            <a href="#formacao">{dict.ui.formacao}</a>
           </div>
-          {/* Foto */}
-          <Image src={token} alt="Token de perfil" width={160} height={160} />
-        </div>
-        {/* Links */}
-        <div className="flex justify-evenly p-2 gap-2 bg-cyan-950">
-          <Link icon={FaAt} href={`mailto:${dict.perfil.contato.email}`}>
-            {dict.perfil.contato.email}
-          </Link>
-          <Link
-            icon={FaMobile}
-            href={`tel:${dict.perfil.contato.telefone.replace(/[\s-]/g, "")}`}
+          <a
+            className="language-switch"
+            href={`/${lang === "pt" ? "en" : "pt"}`}
+            lang={lang === "pt" ? "en" : "pt"}
+            aria-label={lang === "pt" ? "View in English" : "Ver em português"}
           >
-            {dict.perfil.contato.telefone}
-          </Link>
-          <Link icon={FaLocationPin} href={dict.perfil.contato.endereco.maps}>
-            {dict.perfil.contato.endereco.descricao}
-          </Link>
-          <Link icon={FaLinkedin} href={dict.perfil.contato.sociais.linkedin}>
-            LinkedIn
-          </Link>
-          <Link icon={FaGithub} href={dict.perfil.contato.sociais.github}>
-            GitHub
-          </Link>
+            {lang === "pt" ? "EN" : "PT"}
+          </a>
+        </div>
+      </nav>
+
+      <header className="hero">
+        <div className="page-shell hero__inner">
+          <div className="hero__copy">
+            <p className="hero__eyebrow">{dict.perfil.profissao}</p>
+            <h1>{dict.perfil.nome}</h1>
+            <p className="hero__summary">{dict.perfil.resumo}</p>
+            <div className="hero__contact">
+              <Link icon={FaAt} href={`mailto:${dict.perfil.contato.email}`}>
+                {dict.perfil.contato.email}
+              </Link>
+              <Link
+                icon={FaMobile}
+                href={`tel:${dict.perfil.contato.telefone.replace(/[\s-]/g, "")}`}
+              >
+                {dict.perfil.contato.telefone}
+              </Link>
+              <Link icon={FaLocationPin} href={dict.perfil.contato.endereco.maps}>
+                {dict.perfil.contato.endereco.descricao}
+              </Link>
+              <Link icon={FaLinkedin} href={dict.perfil.contato.sociais.linkedin}>
+                {dict.perfil.contato.sociais.linkedin}
+              </Link>
+              <Link icon={FaGithub} href={dict.perfil.contato.sociais.github}>
+                {dict.perfil.contato.sociais.github}
+              </Link>
+            </div>
+          </div>
+          <Image
+            className="hero__image"
+            src={token}
+            alt="Foto de Hugo Henrique"
+            width={220}
+            height={220}
+            priority
+          />
         </div>
       </header>
-      <div className="flex px-8 py-2 gap-4">
-        {/* Experiencia */}
-        <section className="flex flex-col gap-4">
-          <h2>{dict.ui.experiencia}</h2>
-          {dict.experiencias.map((experiencia) => (
-            <Experiencia.Root key={experiencia.titulo}>
-              <Experiencia.Titulo
-                titulo={experiencia.titulo}
-                subtitulo={experiencia.subtitulo}
-              />
-              <Experiencia.Timestamp
-                periodo={experiencia.periodo}
-                localidade={experiencia.localidade}
-              />
-              <Experiencia.Descricao>
-                {experiencia.descricao}
-              </Experiencia.Descricao>
-              <Experiencia.Tarefas tarefas={experiencia.tarefas} dict={dict} />
-            </Experiencia.Root>
-          ))}
-        </section>
-        {/* Dados Técnicos */}
-        <aside className="flex flex-col gap-4">
-          {/* Skills */}
-          <div className="flex flex-col gap-4">
-            <h2>{dict.ui.habilidades}</h2>
-            <Skill skills={dict.habilidades} />
-          </div>
-          {/* Formação */}
-          <div className="flex flex-col gap-4">
-            <h2>{dict.ui.formacao}</h2>
-            {dict.formacoes.map((formacao) => (
-              <Formacao.Root key={formacao.titulo}>
-                <Formacao.Titulo
-                  titulo={formacao.titulo}
-                  subtitulo={formacao.subtitulo}
-                />
-                <Formacao.Timestamp
-                  periodo={formacao.periodo}
-                  localidade={formacao.localidade}
-                />
-                {formacao.certificado && (
-                  <Formacao.Link href={formacao.certificado} dict={dict}>
-                    Alura
-                  </Formacao.Link>
-                )}
-              </Formacao.Root>
-            ))}
-          </div>
-          {/* Projetos */}
-          <div className="flex flex-col gap-4">
+
+      <main className="page-shell portfolio-content">
+        <section className="content-section projects-section" id="projetos">
+          <div className="section-heading">
+            <p className="section-kicker">{dict.ui.portifolio}</p>
             <h2>{dict.ui.portifolio}</h2>
+          </div>
+          <div className="project-grid">
             {dict.portifolio.map((projeto) => (
               <Projeto.Root key={projeto.titulo}>
                 <Projeto.Titulo>{projeto.titulo}</Projeto.Titulo>
                 <Projeto.Descricao>{projeto.descricao}</Projeto.Descricao>
-                <Projeto.Link href={projeto.link} dict={dict}>
-                  GitHub
-                </Projeto.Link>
+                <a
+                  className="project-link"
+                  href={projeto.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {dict.ui.acesso} <FaArrowUpRightFromSquare aria-hidden="true" />
+                </a>
               </Projeto.Root>
             ))}
           </div>
-        </aside>
-      </div>
-    </main>
+        </section>
+
+        <div className="details-grid">
+          <section className="content-section experience-section" id="experiencia">
+            <div className="section-heading">
+              <p className="section-kicker">{dict.ui.experiencia}</p>
+              <h2>{dict.ui.experiencia}</h2>
+            </div>
+            <div className="experience-list">
+              {dict.experiencias.map((experiencia) => (
+                <Experiencia.Root key={experiencia.titulo}>
+                  <Experiencia.Titulo
+                    titulo={experiencia.titulo}
+                    subtitulo={experiencia.subtitulo}
+                  />
+                  <Experiencia.Timestamp
+                    periodo={experiencia.periodo}
+                    localidade={experiencia.localidade}
+                  />
+                  <Experiencia.Descricao>
+                    {experiencia.descricao}
+                  </Experiencia.Descricao>
+                  <Experiencia.Tarefas tarefas={experiencia.tarefas} dict={dict} />
+                </Experiencia.Root>
+              ))}
+            </div>
+          </section>
+
+          <aside className="supporting-content">
+            <section className="content-section" id="habilidades">
+              <div className="section-heading">
+                <p className="section-kicker">{dict.ui.habilidades}</p>
+                <h2>{dict.ui.habilidades}</h2>
+              </div>
+              <Skill skills={dict.habilidades} />
+            </section>
+
+            <section className="content-section education-section" id="formacao">
+              <div className="section-heading">
+                <p className="section-kicker">{dict.ui.formacao}</p>
+                <h2>{dict.ui.formacao}</h2>
+              </div>
+              <div className="education-list">
+                {dict.formacoes.map((formacao) => (
+                  <Formacao.Root key={formacao.titulo}>
+                    <Formacao.Titulo
+                      titulo={formacao.titulo}
+                      subtitulo={formacao.subtitulo}
+                    />
+                    <Formacao.Timestamp
+                      periodo={formacao.periodo}
+                      localidade={formacao.localidade}
+                    />
+                    {formacao.certificado && (
+                      <Formacao.Link href={formacao.certificado} dict={dict}>
+                        Alura
+                      </Formacao.Link>
+                    )}
+                  </Formacao.Root>
+                ))}
+              </div>
+            </section>
+          </aside>
+        </div>
+      </main>
+
+      <footer className="site-footer">
+        <div className="page-shell site-footer__inner">
+          <span>{dict.perfil.nome}</span>
+          <a href={`mailto:${dict.perfil.contato.email}`}>
+            {dict.perfil.contato.email}
+          </a>
+        </div>
+      </footer>
+    </>
   );
 }

@@ -12,7 +12,7 @@
   {
     "categoria": "data",
     "nome": "Data",
-    "habilidades": ["PrismaORM", "PostgreSQL", "NoSQL", "MongoDB", "Firebase"]
+    "habilidades": ["PrismaORM", "PostgreSQL", "NoSQL", "MongoDB"]
   },
   {
     "categoria": "tools",
