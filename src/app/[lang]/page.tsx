@@ -94,7 +94,6 @@ export default async function Home({
         <section className="content-section projects-section" id="projetos">
           <div className="section-heading">
             <p className="section-kicker">{dict.ui.portifolio}</p>
-            <h2>{dict.ui.portifolio}</h2>
           </div>
           <div className="project-grid">
             {dict.portifolio.map((projeto) => (
@@ -118,7 +117,6 @@ export default async function Home({
           <section className="content-section experience-section" id="experiencia">
             <div className="section-heading">
               <p className="section-kicker">{dict.ui.experiencia}</p>
-              <h2>{dict.ui.experiencia}</h2>
             </div>
             <div className="experience-list">
               {dict.experiencias.map((experiencia) => (
@@ -144,15 +142,13 @@ export default async function Home({
             <section className="content-section" id="habilidades">
               <div className="section-heading">
                 <p className="section-kicker">{dict.ui.habilidades}</p>
-                <h2>{dict.ui.habilidades}</h2>
               </div>
               <Skill skills={dict.habilidades} />
             </section>
 
-            <section className="content-section education-section" id="formacao">
+            <section className="content-section education-section break-before-page" id="formacao">
               <div className="section-heading">
                 <p className="section-kicker">{dict.ui.formacao}</p>
-                <h2>{dict.ui.formacao}</h2>
               </div>
               <div className="education-list">
                 {dict.formacoes.map((formacao) => (

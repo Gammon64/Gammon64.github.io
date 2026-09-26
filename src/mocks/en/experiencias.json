@@ -6,7 +6,7 @@
     "localidade": "Ilha Solteira, Brazil",
     "descricao": "Developer of custom software, web and mobile applications for companies in general.",
     "tarefas": [
-      "Developed and maintained the 'Atalayas' dam monitoring web system using JavaServer Faces; built 'Atalayas' microservices using Express and Spring Boot (with Spring Security and Spring Data JPA) for report generation (PDF, DOCX, XLSX), reading parameter calculations, and email/WhatsApp notifications—a system used by 16 power plants and dams. Configured Spring Cloud Gateway and Eureka for service discovery; designed and developed the 'Chuva Vazão' (Rainfall-Flow) hydrological scenario web application using React.js and Next.js, with a Spring backend for telemetry API integration, initially designed to serve two companies.",
+      "Developed and maintained the 'Atalayas' dam monitoring web system using JavaServer Faces, microservices using Express and Spring Boot (with Spring Security and Spring Data JPA) for report generation (PDF, DOCX, XLSX), reading parameter calculations, and email/WhatsApp notifications. Used by 16 power plants and dams. Configured Spring Cloud Gateway and Eureka for service discovery; designed and developed 'Chuva Vazão' (Rainfall-Flow) hydrological scenario web application using React.js and Next.js, with a Spring backend for telemetry API integration, initially designed to serve 2 companies.",
       "Wrote Dockerfiles and hosted applications on the Azure Kubernetes platform using Linux terminals.",
       "Performed PostgreSQL database maintenance; created and maintained PL/pgSQL functions.",
       "Created and maintained continuous integration and continuous delivery (CI/CD) pipelines using Bitbucket Pipelines.",

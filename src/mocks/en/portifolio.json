@@ -1,7 +1,7 @@
 [
   {
     "titulo": "VexOrderPlat",
-    "descricao": "Fullstack employee management application using Next.js and NestJs, with MongoDB database in Docker containers.",
+    "descricao": "Production-ready microservices design with Kafka and multi-technology containerization.",
     "link": "https://github.com/Gammon64/VexOrderPlat"
   },
   {

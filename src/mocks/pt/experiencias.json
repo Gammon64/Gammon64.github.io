@@ -6,7 +6,7 @@
     "localidade": "Ilha Solteira, Brasil",
     "descricao": "Desenvolvedora de softwares personalizados, aplicativos para internet e dispositivos móveis para empresas em geral.",
     "tarefas": [
-      "Desenvolvi e mantive o Atalayas, sistema web de monitoramento de barragens em Java ServerFaces, microsserviços em Express e Spring Boot (com Spring Security e Spring Data JPA) para geração de relatórios (PDF, DOCX e XLSX), calculadora de parâmetros de leitura, envio de Email e Whatsapp, utilizado por 16 usinas e barragens. configurei Spring Cloud Gateway e Eureka para descoberta de serviço, projetei e desenvolvi a aplicação web Chuva Vazão de cenário hidrológico em ReactJs e NextJs e backend em Spring para integração com APIs de telemetria, projetado para atender inicialmente 2 empresas.",
+      "Desenvolvi e mantive o Atalayas, sistema web de monitoramento de barragens em Java ServerFaces, microsserviços em Express e Spring Boot (com Spring Security e Spring Data JPA) para geração de relatórios (PDF, DOCX e XLSX), realizar cálculos de parâmetros de leitura, notificações de Email e Whatsapp. Utilizado por 16 usinas e barragens. configurei Spring Cloud Gateway e Eureka para descoberta de serviço, projetei e desenvolvi a aplicação web Chuva Vazão de cenário hidrológico em ReactJs e NextJs e backend em Spring para integração com APIs de telemetria, projetado para atender inicialmente 2 empresas.",
       "Escrevi Dockerfiles e hospedei aplicações em plataforma Azure Kubernetes usando terminais linux.",
       "Realizei manutenção em banco de dados PostgreSQL. Criei e mantive funções em PL/pgSQL.",
       "Criei e mantive rotinas de integração contínua e entrega contínua com BitBucket Pipeline.",
