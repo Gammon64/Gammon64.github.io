@@ -79,6 +79,7 @@ h5 {
 }
 
 .site-nav__links a,
+.download-button,
 .language-switch {
   color: #345351;
   font-size: 0.9rem;
@@ -87,10 +88,12 @@ h5 {
 }
 
 .site-nav__links a:hover,
+.download-button:hover,
 .language-switch:hover {
   color: #bd623d;
 }
 
+.download-button,
 .language-switch {
   display: grid;
   width: 38px;
@@ -452,7 +455,7 @@ h5 {
 @media print {
   @page {
     size: A4;
-    margin: 10mm 0;
+    margin: 0 0;
   }
 
 

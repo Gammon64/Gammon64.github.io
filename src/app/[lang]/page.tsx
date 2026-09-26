@@ -14,6 +14,7 @@ import {
 } from "react-icons/fa6";
 import token from "@/app/hugo_token.png";
 import { getDictionary, Locale } from "./dictionaries";
+import Download from "@/_components/Download";
 
 export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "pt" }];
@@ -41,14 +42,17 @@ export default async function Home({
             <a href="#habilidades">{dict.ui.habilidades}</a>
             <a href="#formacao">{dict.ui.formacao}</a>
           </div>
-          <a
-            className="language-switch"
-            href={`/${lang === "pt" ? "en" : "pt"}`}
-            lang={lang === "pt" ? "en" : "pt"}
-            aria-label={lang === "pt" ? "View in English" : "Ver em português"}
-          >
-            {lang === "pt" ? "EN" : "PT"}
-          </a>
+          <div className="flex gap-2">
+            <a
+              className="language-switch"
+              href={`/${lang === "pt" ? "en" : "pt"}`}
+              lang={lang === "pt" ? "en" : "pt"}
+              aria-label={lang === "pt" ? "View in English" : "Ver em português"}
+            >
+              {lang === "pt" ? "EN" : "PT"}
+            </a>
+            <Download lang={lang} />
+          </div>
         </div>
       </nav>
 
