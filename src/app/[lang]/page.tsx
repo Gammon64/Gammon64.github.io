@@ -3,18 +3,18 @@ import { Formacao } from "@/_components/Formacao";
 import Link from "@/_components/Link";
 import { Projeto } from "@/_components/Projeto";
 import Skill from "@/_components/Skill";
+import token from "@/app/hugo_token.png";
 import Image from "next/image";
 import {
   FaArrowUpRightFromSquare,
   FaAt,
+  FaDownload,
   FaGithub,
   FaLinkedin,
   FaLocationPin,
   FaMobile,
 } from "react-icons/fa6";
-import token from "@/app/hugo_token.png";
 import { getDictionary, Locale } from "./dictionaries";
-import Download from "@/_components/Download";
 
 export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "pt" }];
@@ -51,7 +51,14 @@ export default async function Home({
             >
               {lang === "pt" ? "EN" : "PT"}
             </a>
-            <Download lang={lang} />
+            <a
+              className="download-button"
+              aria-label={lang === 'pt' ? 'Baixar PDF' : 'Download to PDF'}
+              href={`/curriculo_${lang}.pdf`}
+              download
+            >
+              <FaDownload />
+            </a>
           </div>
         </div>
       </nav>

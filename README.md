@@ -1,7 +1,7 @@
 # Olá
 
-Eu sou o Hugo e este é um projeto do meu currículo feito com Next.js.  
-Hospedado no [GitHub Pages](https://gammon64.github.io/)
+Eu sou o Hugo e este é o meu currículo feito com Next.js.
+Hospedado no [GitHub Pages](https://gammon64.github.io/pt)
 
 ## Alterações
 
@@ -11,7 +11,7 @@ Se você deseja copiar o projeto e fazer o seu próprio currículo, edite os arq
 
 # Hello
 
-I'm Hugo and this is my résumé built with Next.js.  
+I'm Hugo and this is my résumé built with Next.js.
 Hosted on [GitHub Pages](https://gammon64.github.io/en)
 
 ## Customization

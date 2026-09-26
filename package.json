@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/generate-pdfs.mjs",
     "start": "next start",
     "lint": "next lint"
   },
@@ -21,6 +21,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.2",
+    "playwright": "^1.63.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.10",
     "typescript": "^5"
